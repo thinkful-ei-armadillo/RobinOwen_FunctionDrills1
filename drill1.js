@@ -11,7 +11,7 @@ function createGreeting(name, age) {
   if (!age || !name){
     throw new Error('Arguments not valid.');
   }
-  if(typeof name !== String || typeof age !== Number){
+  if(typeof name !== 'string' || typeof age !== 'number'){
     throw new TypeError();
   }
   const yearOfBirth = getYearOfBirth(age);
