@@ -1,1 +1,5 @@
-console.log(`Hi my name is....`_;);
+function createGreeting() {
+    console.log('Hi my name is....');
+}
+
+createGreeting();
