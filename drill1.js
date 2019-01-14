@@ -19,8 +19,9 @@ function createGreeting(name, age) {
 }
 
 try {
-  const greeting1 = createGreeting('', 25);
+  const greeting1 = createGreeting('', -1);
+  console.log(greeting1);
 }
 catch (er) {
-  console.log('Age cannot be negative');
+  console.log('Age cannot be negative', er.message);
 }
